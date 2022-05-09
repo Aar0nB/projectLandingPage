@@ -1,0 +1,99 @@
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin:0;
+}
+
+.firstBlock{
+    background-color: #1F2937;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+    color:white;
+}
+
+.links ul{
+    list-style-type: none;
+    display:flex;
+    gap:15px;
+    font-size:18px;
+    color: #e5e7eb;
+}
+.firstContainer{
+    display:flex;
+    margin-left: 10%;
+    margin-right:10%;
+    align-items: center;
+    justify-content:center;
+    margin-top:10vh;
+    margin-bottom: 10vh;
+}
+.textBox{
+    display:flex;
+
+    flex-direction: column;
+    align-items: start;
+    width:50%;
+    padding-right: 5px;
+    padding-left: 25vh;
+}
+.heroText{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    display:flex;
+    margin:16px;
+    text-align: left;
+    width:50vh;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+
+}
+.imgContainer{
+    display:flex;
+    justify-content: center;
+    width:50%;
+    margin-right:25vh;
+}
+
+.imgPlaceholder{
+    background-color: grey;
+    width:50vh;
+    height: 40vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    border:1px;
+    border-style:solid;
+    border-color: aliceblue;
+}
+.regText{
+    color:#e5e7eb;
+    font-size:18px;
+    margin:18px;
+    margin-top: 8px;
+    text-align: left;
+    width:50vh;
+}
+.signUp {
+    background-color:#3882F6;
+    border-radius: 10px;
+    width:10vh;
+    height:3.5vh;
+    font-size: 16px;
+    font-weight: 550;
+    color: #f9faf8;
+    border:none;
+    margin-left:16px;
+}
