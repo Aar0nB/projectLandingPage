@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     font-family: Roboto, sans-serif;
     margin:0;
+
 }
 
 .firstBlock{
@@ -12,8 +13,8 @@ body{
     display:flex;
     justify-content: space-between;
     margin-top: 20px;
-    margin-left: 25vh;
-    margin-right: 25vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
     align-items: center;
 }
 .logo{
@@ -34,7 +35,7 @@ body{
     margin-left: 10%;
     margin-right:10%;
     align-items: center;
-    justify-content:center;
+    justify-content: space-around;
     margin-top:10vh;
     margin-bottom: 10vh;
 }
@@ -44,8 +45,8 @@ body{
     flex-direction: column;
     align-items: start;
     width:50%;
-    padding-right: 5px;
-    padding-left: 25vh;
+    margin-right: 5vh;
+    padding-left: 5vh;
 }
 .heroText{
     font-size: 48px;
@@ -63,7 +64,8 @@ body{
     display:flex;
     justify-content: center;
     width:50%;
-    margin-right:25vh;
+    margin-right:5vh;
+    margin-left:5vh;
 }
 
 .imgPlaceholder{
@@ -84,7 +86,7 @@ body{
     margin:18px;
     margin-top: 8px;
     text-align: left;
-    width:50vh;
+    width:40vh;
 }
 .signUp {
     background-color:#3882F6;
@@ -96,4 +98,61 @@ body{
     color: #f9faf8;
     border:none;
     margin-left:16px;
+}
+.secondBlock{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    background-color: #f9faf8;
+}
+.info{
+    margin:20px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+.illustration{
+    border-style: solid;
+    width:120px;
+    height:120px;
+    border-radius: 15px;
+    border-color:#3882F6;
+}
+.row{
+    display:flex;
+    justify-content: space-around;
+    gap:5vh;
+}
+.blurb{
+    width:100px;
+    text-align: center;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thirdBlock{
+    background-color: #E5E7EB;
+    padding-top:10vh;
+    padding-bottom:10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.quote{
+    display:flex;
+    width:500px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 20;
+    color:#1F2937;
+}
+.speaker{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bolder;
+    width:500px;
 }
